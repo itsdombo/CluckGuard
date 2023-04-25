@@ -28,7 +28,7 @@ We welcome any contribution to this project. Please feel free to fork this repos
 
 ## Credits
 
-This project was developed by [Dominic Rousseau]<https://github.com/itsdombo>.
+This project was developed by [Dominic Rousseau](https://github.com/itsdombo/).
 
 ## License
 
