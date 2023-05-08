@@ -2,6 +2,8 @@
 
 CluckGuard is an automated chicken coop door that is designed to open and close automatically based on sunrise and sunset. With this device, you will no longer have to worry about letting your chickens out in the morning or locking them up at night. It is easy to install and operate, making it a perfect solution for any chicken owner.
 
+This project is still a work in progress! Check out the [wiki](https://github.com/itsdombo/CluckGuard/wiki) to see updates.
+
 ## Features
 
 * Automatically opens and closes based on the sunrise and sunset times
