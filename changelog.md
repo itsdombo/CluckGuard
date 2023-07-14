@@ -2,6 +2,34 @@
 
 This is the changelog for Cluck Guard. While this project does not have a large software side, it does have a big hardware and documentation side to it. Therefore, much of the changelog will be related to this as well.
 
+## [0.9] - 2023-07-13
+
+### Fixed
+
+- Pulley not having a long enough circumference.
+    - Replaced pulley with a new one with a circumference of 14 inches.
+
+## [0.8] - 2023-07-11
+
+### Added
+
+- Installation of wooden holding bracket for servo.
+
+## [0.7] - 2023-07-10
+
+### Added
+
+- Installation of:
+    - Mounting box with electronics
+    - Sliding door
+    - Pulley
+
+## [0.6] - 2023-07-29
+
+### Added
+
+- Installation of frame to chicken coop
+
 ## [0.5] - 2023-06-10
 
 ### Added
