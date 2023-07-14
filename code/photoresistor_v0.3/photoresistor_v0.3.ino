@@ -19,9 +19,9 @@ Servo myServo;
 #define CW 30                     // Value that the servo turns clockwise
 #define CCW 150                   // Value that the servo turns counterclockwise
 #define OFF 90                    // The value that stops rotation
-#define REVTIME 1984              // Time taken for servo to make 1 revolution
+#define REVTIME 4000              // Time taken for servo to make 1 revolution
 #define READ_DELAY 500            // Delay between readings
-#define BRIGHTNESS_THRESHOLD 300  // Threshold of light photoresistor gets before turning off (higher means brighter)
+#define BRIGHTNESS_THRESHOLD 100   // Threshold of light photoresistor gets before turning off (higher means brighter)
 
 // Constants
 const int pResistor = A0; // Photoresistor communicates through analog pin A0
@@ -59,7 +59,7 @@ void loop(){
 void close() {
   Serial.println("Door is closing...");  // Print sentence to console
   digitalWrite(led, HIGH);            // Turn led on
-  myServo.write(CW);
+  myServo.write(CCW);
   delay(REVTIME);
   myServo.write(OFF);
   isOpen = 0;
@@ -68,7 +68,7 @@ void close() {
 void open() {
   Serial.println("Door is opening...");  // Print sentence to console
   digitalWrite(led, LOW);           // Turn led off
-  myServo.write(CCW);
+  myServo.write(CW);
   delay(REVTIME);
   myServo.write(OFF);
   isOpen = 1;
