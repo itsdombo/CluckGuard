@@ -14,10 +14,21 @@ For reasons of mechanical stress on the electrical components and longevity in t
 
 The next following week or two will be dedicated to prototyping and CAD design of the locking mechanism: A spring-locked wedge that is unlocked by the force of a servo (no bigger than an SG90).
 
-Below are two videos demoing the promising progress of the door.
+Below are two videos demoing progress of the door.
 
- <img src="/images/initialTest.mov" width="30%" alt="Video of mounted system with original pulley" />
- <img src="/images/newPulley.mov" width="30%" alt="Video of mounted system with new pulley" />
+https://github.com/itsdombo/CluckGuard/assets/31048418/dae68659-ef06-495b-bda8-897e3f5b6dd2
+
+The video above showcases the first working demo of the chicken door. Without the calibrations, the door does not complete a full revolution under the load of the door, and overshoots when closing.
+
+The door is designed so that a full rotation causes the door to fully lift; the circumference of the pulley equals the height displacement of the door. Hence, a nail in the wall and a stopper is all the pulley needs to stop the door from overshooting. This pulley's outer circumference matches the circumference of the door, instead of the inner circumference. Hence, the pulley needed to be remade.
+_(07/11/2023)_
+
+https://github.com/itsdombo/CluckGuard/assets/31048418/1bde3d5f-ca86-47e0-8f9a-243646589890
+
+Above showcases the chicken door with the updated pulley, the inner circumference matching that of 14 inches. In this video, a light is shined onto the photoresistor, winding the pulley up. Once the pulley is given the signal to return to normal voltage, it cannot bear the weight of the door, hence why it falls back down in the video.
+
+The final step from here will be to design the locking mechanism for the door, as mentioned above.
+_(07/13/2023)_
 
 ## Operation
 
