@@ -4,6 +4,32 @@ CluckGuard is an automated chicken coop door that is designed to open and close 
 
 This project is still a work in progress! Check out the [wiki](https://github.com/itsdombo/CluckGuard/wiki) and the [changelog](changelog.md) to see updates.
 
+## Demo Videos
+
+In the current state of the project. The door is unable to hold up the door without a constant supply of the correct voltage. This can be solved either by:
+1. Programming the Arduino to supply the correct voltage necessary to counteract the weight of the door.
+2. Integrating a locking mechanism to hold the door in place in the open position.
+
+For reasons of mechanical stress on the electrical components and longevity in the lifespan of the product, I have decided to go with the second option.
+
+The next following week or two will be dedicated to prototyping and CAD design of the locking mechanism: A spring-locked wedge that is unlocked by the force of a servo (no bigger than an SG90).
+
+Below are two videos demoing progress of the door.
+
+https://github.com/itsdombo/CluckGuard/assets/31048418/dae68659-ef06-495b-bda8-897e3f5b6dd2
+
+The video above showcases the first working demo of the chicken door. Without the calibrations, the door does not complete a full revolution under the load of the door, and overshoots when closing.
+
+The door is designed so that a full rotation causes the door to fully lift; the circumference of the pulley equals the height displacement of the door. Hence, a nail in the wall and a stopper is all the pulley needs to stop the door from overshooting. This pulley's outer circumference matches the circumference of the door, instead of the inner circumference. Hence, the pulley needed to be remade.
+_(07/11/2023)_
+
+https://github.com/itsdombo/CluckGuard/assets/31048418/1bde3d5f-ca86-47e0-8f9a-243646589890
+
+Above showcases the chicken door with the updated pulley, the inner circumference matching that of 14 inches. In this video, a light is shined onto the photoresistor, winding the pulley up. Once the pulley is given the signal to return to normal voltage, it cannot bear the weight of the door, hence why it falls back down in the video.
+
+The final step from here will be to design the locking mechanism for the door, as mentioned above.
+_(07/13/2023)_
+
 ## Operation
 
 Once installed, CluckGuard will automatically open and close the door based on the sunrise and sunset times. The device uses a photoresistor to determine when the sun is rising and setting, and adjusts the door accordingly. If you need to adjust the opening and closing times, you can do so by adjusting the parameters in the code.
