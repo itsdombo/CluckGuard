@@ -4,6 +4,21 @@ CluckGuard is an automated chicken coop door that is designed to open and close 
 
 This project is still a work in progress! Check out the [wiki](https://github.com/itsdombo/CluckGuard/wiki) and the [changelog](changelog.md) to see updates.
 
+## Demo Videos
+
+In the current state of the project. The door is unable to hold up the door without a constant supply of the correct voltage. This can be solved either by:
+1. Programming the Arduino to supply the correct voltage necessary to counteract the weight of the door.
+2. Integrating a locking mechanism to hold the door in place in the open position.
+
+For reasons of mechanical stress on the electrical components and longevity in the lifespan of the product, I have decided to go with the second option.
+
+The next following week or two will be dedicated to prototyping and CAD design of the locking mechanism: A spring-locked wedge that is unlocked by the force of a servo (no bigger than an SG90).
+
+Below are two videos demoing the promising progress of the door.
+
+ <img src="/images/initialTest.mov" width="30%" alt="Video of mounted system with original pulley" />
+ <img src="/images/newPulley.mov" width="30%" alt="Video of mounted system with new pulley" />
+
 ## Operation
 
 Once installed, CluckGuard will automatically open and close the door based on the sunrise and sunset times. The device uses a photoresistor to determine when the sun is rising and setting, and adjusts the door accordingly. If you need to adjust the opening and closing times, you can do so by adjusting the parameters in the code.
