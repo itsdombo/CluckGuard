@@ -8,6 +8,9 @@ This is the changelog for Cluck Guard. While this project does not have a large 
 
 - Pulley not having a long enough circumference.
     - Replaced pulley with a new one with a circumference of 14 inches.
+- [`photoresistor_v0.3.ino`](code\photoresistor_v0.1\photoresistor_v0.3.ino):
+    - Tweaked BRIGHTNESS and REVTIME values to correct for the lifting load.
+    - Reversed CW and CCW.
 
 ## [0.8] - 2023-07-11
 
