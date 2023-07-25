@@ -32,7 +32,7 @@ _(07/13/2023)_
 
 ![Stopper ensuring door does not overshoot](images/stopper.gif)
 
-A simple stopper was installed on the pulley using the a screw and some metal, this will ensure that the door does not overshoot.
+A simple stopper was installed on the pulley using the a screw and some plumbers strap, which was cut to reduce bulk, this will ensure that the door does not overshoot.
 
 All that is left is the catch mechanism for the door. An SG90 pulley may have enough stall torque to ensure that the door does not fall. This will bypass the need for CAD or springlocks as the servo can just be toggled into its off and on state.
 _(07/25/2023)_
