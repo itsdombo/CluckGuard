@@ -2,6 +2,14 @@
 
 This is the changelog for Cluck Guard. While this project does not have a large software side, it does have a big hardware and documentation side to it. Therefore, much of the changelog will be related to this as well.
 
+## [0.10] - 2023-07-25
+
+### Added
+
+- Stopper to pulley (plumbers strap and screw)
+    - See [stopper.gif](images/stopper.gif)
+    - Updated [README.md](README.md) accordingly
+
 ## [0.9] - 2023-07-13
 
 ### Fixed
